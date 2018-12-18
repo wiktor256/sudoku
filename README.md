@@ -32,3 +32,11 @@ Output:
 Iterations: 2681344
 Time: 41.18399ms
 ```
+
+## Performance
+On Macbook Pro (2013) 2.6 GHz Intel Core i7 with 16GB of RAM, it takes less than 25 seconds to solve all top 500 most difficult sudoku puzzles from http://www.sfsudoku.com/su17ExtremeDiff500.txt.
+
+To run the test:
+```
+time ./run_all.sh
+```
